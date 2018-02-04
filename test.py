@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import CYBERTK
+from CYBERTK.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -10,7 +10,7 @@ from io import StringIO
 from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
-cl = LINETCR.LINE()
+cl = CYBERTK.LINE()
 cl.login(token="EpGacuPYkeiKuPilEkf1.WdJy3lEtmWYrwUqPWWtzaq.rM6L93MnryKU4Z/hSujLND+g1a0roXseyvz0v2tip9k=")
 cl.loginResult()
 
